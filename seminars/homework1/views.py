@@ -19,6 +19,7 @@ def home(request):
          morbi leo. Venenatis cras sed felis eget velit aliquet. Metus vulputate eu scelerisque felis
          imperdiet proin fermentum.</p>
      """
+    logger.info("Visited page home")
     return HttpResponse(home_html_text)
 
 
@@ -33,4 +34,5 @@ def about(request):
          eget sit amet tellus cras. Lectus vestibulum mattis ullamcorper velit sed. Dapibus ultrices in
          iaculis nunc sed augue.</p>
     """
+    logger.info("Visited page about")
     return HttpResponse(about_html_text)

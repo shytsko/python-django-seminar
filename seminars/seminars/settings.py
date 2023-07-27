@@ -159,5 +159,10 @@ LOGGING = {
             'level': 'DEBUG',
             'propagate': True,
         },
+        'homework1': {
+            'handlers': ['file'],
+            'level': 'INFO',
+            'propagate': True,
+        },
     },
 }

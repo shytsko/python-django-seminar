@@ -92,3 +92,24 @@ INFO 2023-07-27 11:03:42,500 basehttp 12196 7100 "GET /homework1/ HTTP/1.1" 200 
 INFO 2023-07-27 11:03:42,948 basehttp 12196 7100 "GET /homework1/about/ HTTP/1.1" 200 684
 INFO 2023-07-27 11:03:43,372 basehttp 12196 7100 "GET /homework1/ HTTP/1.1" 200 983
 INFO 2023-07-27 11:03:43,731 basehttp 12196 7100 "GET /homework1/about/ HTTP/1.1" 200 684
+INFO 2023-07-27 11:20:18,228 autoreload 12616 12044 Watching for file changes with StatReloader
+WARNING 2023-07-27 11:20:19,917 log 12616 6828 Not Found: /
+WARNING 2023-07-27 11:20:19,918 basehttp 12616 6828 "GET / HTTP/1.1" 404 2383
+INFO 2023-07-27 11:20:25,294 basehttp 12616 6828 "GET /homework1/ HTTP/1.1" 200 983
+INFO 2023-07-27 11:20:25,908 basehttp 12616 6828 "GET /homework1/ HTTP/1.1" 200 983
+INFO 2023-07-27 11:20:26,260 basehttp 12616 6828 "GET /homework1/ HTTP/1.1" 200 983
+INFO 2023-07-27 11:20:27,019 basehttp 12616 6828 "GET /homework1/about/ HTTP/1.1" 200 684
+INFO 2023-07-27 11:20:27,914 basehttp 12616 6828 "GET /homework1/ HTTP/1.1" 200 983
+INFO 2023-07-27 11:20:28,277 basehttp 12616 6828 "GET /homework1/about/ HTTP/1.1" 200 684
+INFO 2023-07-27 11:20:28,522 basehttp 12616 6828 "GET /homework1/about/ HTTP/1.1" 200 684
+INFO 2023-07-27 11:20:28,845 basehttp 12616 6828 "GET /homework1/about/ HTTP/1.1" 200 684
+INFO 2023-07-27 11:21:52,226 autoreload 12616 12044 E:\123\python-django-seminar\seminars\seminars\settings.py changed, reloading.
+INFO 2023-07-27 11:21:52,862 autoreload 5888 8536 Watching for file changes with StatReloader
+INFO 2023-07-27 11:22:00,207 views 5888 7688 Visited page home
+INFO 2023-07-27 11:22:00,208 basehttp 5888 7688 "GET /homework1/ HTTP/1.1" 200 983
+INFO 2023-07-27 11:22:00,909 views 5888 7688 Visited page about
+INFO 2023-07-27 11:22:00,909 basehttp 5888 7688 "GET /homework1/about/ HTTP/1.1" 200 684
+INFO 2023-07-27 11:22:01,444 views 5888 7688 Visited page home
+INFO 2023-07-27 11:22:01,445 basehttp 5888 7688 "GET /homework1/ HTTP/1.1" 200 983
+INFO 2023-07-27 11:22:01,846 views 5888 7688 Visited page about
+INFO 2023-07-27 11:22:01,846 basehttp 5888 7688 "GET /homework1/about/ HTTP/1.1" 200 684
