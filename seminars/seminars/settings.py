@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'task2app',
     'task5app',
+    'homework1',
 ]
 
 MIDDLEWARE = [
@@ -156,6 +157,11 @@ LOGGING = {
         'task5app': {
             'handlers': ['console', 'file'],
             'level': 'DEBUG',
+            'propagate': True,
+        },
+        'homework1': {
+            'handlers': ['file'],
+            'level': 'INFO',
             'propagate': True,
         },
     },
