@@ -113,3 +113,321 @@ INFO 2023-07-27 11:22:01,444 views 5888 7688 Visited page home
 INFO 2023-07-27 11:22:01,445 basehttp 5888 7688 "GET /homework1/ HTTP/1.1" 200 983
 INFO 2023-07-27 11:22:01,846 views 5888 7688 Visited page about
 INFO 2023-07-27 11:22:01,846 basehttp 5888 7688 "GET /homework1/about/ HTTP/1.1" 200 684
+INFO 2023-07-28 23:31:19,831 autoreload 12784 8512 Watching for file changes with StatReloader
+WARNING 2023-07-28 23:31:21,795 log 12784 8480 Not Found: /
+WARNING 2023-07-28 23:31:21,795 basehttp 12784 8480 "GET / HTTP/1.1" 404 2383
+WARNING 2023-07-28 23:31:21,830 log 12784 8480 Not Found: /favicon.ico
+WARNING 2023-07-28 23:31:21,831 basehttp 12784 8480 "GET /favicon.ico HTTP/1.1" 404 2434
+INFO 2023-07-28 23:31:41,574 views 12784 8480 coin: решка
+INFO 2023-07-28 23:31:41,575 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:31:44,223 views 12784 8480 coin: решка
+INFO 2023-07-28 23:31:44,224 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:31:44,862 views 12784 8480 coin: решка
+INFO 2023-07-28 23:31:44,863 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:31:45,295 views 12784 8480 coin: решка
+INFO 2023-07-28 23:31:45,295 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:31:45,736 views 12784 8480 coin: решка
+INFO 2023-07-28 23:31:45,736 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:31:46,174 views 12784 8480 coin: решка
+INFO 2023-07-28 23:31:46,175 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:31:46,598 views 12784 8480 coin: решка
+INFO 2023-07-28 23:31:46,599 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:31:46,909 views 12784 8480 coin: решка
+INFO 2023-07-28 23:31:46,909 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:31:47,133 views 12784 8480 coin: орел
+INFO 2023-07-28 23:31:47,133 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:31:47,333 views 12784 8480 coin: орел
+INFO 2023-07-28 23:31:47,334 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:31:47,718 views 12784 8480 coin: орел
+INFO 2023-07-28 23:31:47,718 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:31:47,992 views 12784 8480 coin: орел
+INFO 2023-07-28 23:31:47,992 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:31:48,261 views 12784 8480 coin: орел
+INFO 2023-07-28 23:31:48,261 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:31:48,557 views 12784 8480 coin: решка
+INFO 2023-07-28 23:31:48,558 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:31:48,964 views 12784 8480 coin: орел
+INFO 2023-07-28 23:31:48,965 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:31:49,157 views 12784 8480 coin: орел
+INFO 2023-07-28 23:31:49,157 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:31:49,339 views 12784 8480 coin: орел
+INFO 2023-07-28 23:31:49,339 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:31:49,685 views 12784 8480 coin: орел
+INFO 2023-07-28 23:31:49,685 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:31:49,957 views 12784 8480 coin: орел
+INFO 2023-07-28 23:31:49,957 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:31:50,260 views 12784 8480 coin: орел
+INFO 2023-07-28 23:31:50,261 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:31:50,476 views 12784 8480 coin: решка
+INFO 2023-07-28 23:31:50,476 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:31:50,676 views 12784 8480 coin: орел
+INFO 2023-07-28 23:31:50,677 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:31:50,996 views 12784 8480 coin: решка
+INFO 2023-07-28 23:31:50,997 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:31:51,204 views 12784 8480 coin: решка
+INFO 2023-07-28 23:31:51,204 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:31:51,524 views 12784 8480 coin: решка
+INFO 2023-07-28 23:31:51,524 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:31:51,756 views 12784 8480 coin: решка
+INFO 2023-07-28 23:31:51,756 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:31:52,003 views 12784 8480 coin: орел
+INFO 2023-07-28 23:31:52,003 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:31:52,436 views 12784 8480 coin: орел
+INFO 2023-07-28 23:31:52,437 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:31:52,644 views 12784 8480 coin: решка
+INFO 2023-07-28 23:31:52,644 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:31:52,859 views 12784 8480 coin: решка
+INFO 2023-07-28 23:31:52,860 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:31:53,099 views 12784 8480 coin: орел
+INFO 2023-07-28 23:31:53,099 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:32:15,251 views 12784 8480 coin: орел
+INFO 2023-07-28 23:32:15,252 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:32:15,481 views 12784 8480 coin: орел
+INFO 2023-07-28 23:32:15,481 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:32:15,779 views 12784 8480 coin: орел
+INFO 2023-07-28 23:32:15,779 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:32:16,633 views 12784 8480 coin: решка
+INFO 2023-07-28 23:32:16,634 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:32:17,104 views 12784 8480 coin: решка
+INFO 2023-07-28 23:32:17,105 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:32:17,496 views 12784 8480 coin: решка
+INFO 2023-07-28 23:32:17,497 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:32:17,977 views 12784 8480 coin: решка
+INFO 2023-07-28 23:32:17,977 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:32:18,423 views 12784 8480 coin: орел
+INFO 2023-07-28 23:32:18,424 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:32:18,847 views 12784 8480 coin: орел
+INFO 2023-07-28 23:32:18,848 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:32:19,232 views 12784 8480 coin: решка
+INFO 2023-07-28 23:32:19,232 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:32:19,936 views 12784 8480 coin: орел
+INFO 2023-07-28 23:32:19,936 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:32:20,230 views 12784 8480 coin: орел
+INFO 2023-07-28 23:32:20,231 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:32:20,512 views 12784 8480 coin: решка
+INFO 2023-07-28 23:32:20,512 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:32:20,792 views 12784 8480 coin: орел
+INFO 2023-07-28 23:32:20,792 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:32:21,062 views 12784 8480 coin: орел
+INFO 2023-07-28 23:32:21,063 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:32:21,335 views 12784 8480 coin: орел
+INFO 2023-07-28 23:32:21,335 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:32:21,653 views 12784 8480 coin: орел
+INFO 2023-07-28 23:32:21,654 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:32:21,910 views 12784 8480 coin: решка
+INFO 2023-07-28 23:32:21,910 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:32:22,118 views 12784 8480 coin: решка
+INFO 2023-07-28 23:32:22,119 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:32:22,319 views 12784 8480 coin: орел
+INFO 2023-07-28 23:32:22,320 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:32:22,536 views 12784 8480 coin: решка
+INFO 2023-07-28 23:32:22,537 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:32:22,822 views 12784 8480 coin: решка
+INFO 2023-07-28 23:32:22,822 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:32:23,022 views 12784 8480 coin: орел
+INFO 2023-07-28 23:32:23,022 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:32:23,206 views 12784 8480 coin: решка
+INFO 2023-07-28 23:32:23,206 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:32:23,397 views 12784 8480 coin: решка
+INFO 2023-07-28 23:32:23,398 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:32:23,598 views 12784 8480 coin: орел
+INFO 2023-07-28 23:32:23,598 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:33:02,286 views 12784 8480 coin: орел
+INFO 2023-07-28 23:33:02,286 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:33:03,099 views 12784 8480 coin: решка
+INFO 2023-07-28 23:33:03,100 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:33:04,173 views 12784 8480 coin: решка
+INFO 2023-07-28 23:33:04,173 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:33:04,908 views 12784 8480 coin: решка
+INFO 2023-07-28 23:33:04,909 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:33:25,051 views 12784 8480 coin: решка
+INFO 2023-07-28 23:33:25,051 basehttp 12784 8480 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:42:01,021 autoreload 4548 13628 Watching for file changes with StatReloader
+INFO 2023-07-28 23:42:06,517 views 4548 7556 coin: орел
+INFO 2023-07-28 23:42:06,518 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:42:07,185 views 4548 7556 coin: орел
+INFO 2023-07-28 23:42:07,185 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:42:07,688 views 4548 7556 coin: орел
+INFO 2023-07-28 23:42:07,689 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:42:08,025 views 4548 7556 coin: орел
+INFO 2023-07-28 23:42:08,025 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:42:08,306 views 4548 7556 coin: решка
+INFO 2023-07-28 23:42:08,306 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:42:08,639 views 4548 7556 coin: решка
+INFO 2023-07-28 23:42:08,639 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:42:08,871 views 4548 7556 coin: орел
+INFO 2023-07-28 23:42:08,872 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:42:09,104 views 4548 7556 coin: решка
+INFO 2023-07-28 23:42:09,104 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:42:09,633 views 4548 7556 coin: орел
+INFO 2023-07-28 23:42:09,634 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:42:09,848 views 4548 7556 coin: решка
+INFO 2023-07-28 23:42:09,848 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:42:10,049 views 4548 7556 coin: решка
+INFO 2023-07-28 23:42:10,049 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:42:10,287 views 4548 7556 coin: решка
+INFO 2023-07-28 23:42:10,287 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:42:10,728 views 4548 7556 coin: решка
+INFO 2023-07-28 23:42:10,728 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:42:12,910 views 4548 7556 coin: решка
+INFO 2023-07-28 23:42:12,911 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:42:13,862 views 4548 7556 coin: орел
+INFO 2023-07-28 23:42:13,863 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:42:14,237 views 4548 7556 coin: орел
+INFO 2023-07-28 23:42:14,237 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:42:14,677 views 4548 7556 coin: решка
+INFO 2023-07-28 23:42:14,678 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:42:59,873 views 4548 7556 coin: решка
+INFO 2023-07-28 23:42:59,874 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:43:03,338 views 4548 7556 coin: орел
+INFO 2023-07-28 23:43:03,338 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:43:05,832 views 4548 7556 coin: орел
+INFO 2023-07-28 23:43:05,832 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:43:08,039 views 4548 7556 coin: орел
+INFO 2023-07-28 23:43:08,039 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:43:10,014 views 4548 7556 coin: решка
+INFO 2023-07-28 23:43:10,014 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:43:12,053 views 4548 7556 coin: орел
+INFO 2023-07-28 23:43:12,053 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:43:13,980 views 4548 7556 coin: орел
+INFO 2023-07-28 23:43:13,981 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:43:15,402 views 4548 7556 coin: орел
+INFO 2023-07-28 23:43:15,402 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:43:17,290 views 4548 7556 coin: решка
+INFO 2023-07-28 23:43:17,291 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:43:19,465 views 4548 7556 coin: решка
+INFO 2023-07-28 23:43:19,466 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:43:21,136 views 4548 7556 coin: решка
+INFO 2023-07-28 23:43:21,137 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:43:22,679 views 4548 7556 coin: решка
+INFO 2023-07-28 23:43:22,680 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:43:25,774 views 4548 7556 coin: орел
+INFO 2023-07-28 23:43:25,775 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:43:27,581 views 4548 7556 coin: орел
+INFO 2023-07-28 23:43:27,582 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:43:29,301 views 4548 7556 coin: решка
+INFO 2023-07-28 23:43:29,301 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:43:31,899 views 4548 7556 coin: орел
+INFO 2023-07-28 23:43:31,900 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:43:36,035 views 4548 7556 coin: орел
+INFO 2023-07-28 23:43:36,035 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:43:37,739 views 4548 7556 coin: орел
+INFO 2023-07-28 23:43:37,739 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:43:43,535 views 4548 7556 coin: решка
+INFO 2023-07-28 23:43:43,536 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:43:46,677 views 4548 7556 coin: орел
+INFO 2023-07-28 23:43:46,678 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:43:48,085 views 4548 7556 coin: орел
+INFO 2023-07-28 23:43:48,086 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:43:53,900 views 4548 7556 coin: решка
+INFO 2023-07-28 23:43:53,900 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:43:55,385 views 4548 7556 coin: орел
+INFO 2023-07-28 23:43:55,385 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:43:57,312 views 4548 7556 coin: решка
+INFO 2023-07-28 23:43:57,313 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:44:16,760 views 4548 7556 coin: орел
+INFO 2023-07-28 23:44:16,760 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:44:18,687 views 4548 7556 coin: решка
+INFO 2023-07-28 23:44:18,688 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:44:20,175 views 4548 7556 coin: орел
+INFO 2023-07-28 23:44:20,175 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:44:20,934 views 4548 7556 coin: решка
+INFO 2023-07-28 23:44:20,935 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:44:21,213 views 4548 7556 coin: орел
+INFO 2023-07-28 23:44:21,214 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:44:24,692 views 4548 7556 coin: решка
+INFO 2023-07-28 23:44:24,692 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:44:26,996 views 4548 7556 coin: решка
+INFO 2023-07-28 23:44:26,997 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:44:28,580 views 4548 7556 coin: решка
+INFO 2023-07-28 23:44:28,581 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:44:29,947 views 4548 7556 coin: решка
+INFO 2023-07-28 23:44:29,948 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:44:31,186 views 4548 7556 coin: орел
+INFO 2023-07-28 23:44:31,186 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:44:32,955 views 4548 7556 coin: орел
+INFO 2023-07-28 23:44:32,956 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:44:34,338 views 4548 7556 coin: решка
+INFO 2023-07-28 23:44:34,338 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:44:37,616 views 4548 7556 coin: решка
+INFO 2023-07-28 23:44:37,616 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:44:42,574 views 4548 7556 coin: орел
+INFO 2023-07-28 23:44:42,574 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:44:44,630 views 4548 7556 coin: орел
+INFO 2023-07-28 23:44:44,630 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:44:45,797 views 4548 7556 coin: решка
+INFO 2023-07-28 23:44:45,798 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:44:46,876 views 4548 7556 coin: решка
+INFO 2023-07-28 23:44:46,876 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:44:48,501 views 4548 7556 coin: решка
+INFO 2023-07-28 23:44:48,501 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-28 23:44:50,081 views 4548 7556 coin: орел
+INFO 2023-07-28 23:44:50,082 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:44:58,911 views 4548 7556 coin: орел
+INFO 2023-07-28 23:44:58,912 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-28 23:45:35,313 views 4548 7556 coin: решка
+INFO 2023-07-28 23:45:35,313 basehttp 4548 7556 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-29 00:14:46,779 autoreload 4548 13628 D:\Documents\GB\python-django-seminar\seminars\task5app\models.py changed, reloading.
+INFO 2023-07-29 00:14:47,180 autoreload 14124 2104 Watching for file changes with StatReloader
+INFO 2023-07-29 00:16:31,271 autoreload 14124 2104 D:\Documents\GB\python-django-seminar\seminars\task5app\models.py changed, reloading.
+INFO 2023-07-29 00:16:31,640 autoreload 4840 15724 Watching for file changes with StatReloader
+INFO 2023-07-29 00:24:12,205 autoreload 15476 16072 Watching for file changes with StatReloader
+INFO 2023-07-29 00:24:21,949 basehttp 15476 11388 "GET /task5/coin_statistic HTTP/1.1" 301 0
+INFO 2023-07-29 00:24:21,952 basehttp 15476 14224 "GET /task5/coin_statistic/ HTTP/1.1" 200 431
+INFO 2023-07-29 00:26:35,028 autoreload 15476 16072 D:\Documents\GB\python-django-seminar\seminars\task5app\views.py changed, reloading.
+INFO 2023-07-29 00:26:35,417 autoreload 6420 15712 Watching for file changes with StatReloader
+INFO 2023-07-29 00:26:38,555 basehttp 6420 6292 "GET /task5/coin_statistic/ HTTP/1.1" 200 2665
+INFO 2023-07-29 00:36:10,882 autoreload 6420 15712 D:\Documents\GB\python-django-seminar\seminars\task5app\views.py changed, reloading.
+INFO 2023-07-29 00:36:11,275 autoreload 4888 1384 Watching for file changes with StatReloader
+INFO 2023-07-29 00:43:17,129 autoreload 4888 1384 D:\Documents\GB\python-django-seminar\seminars\task5app\models.py changed, reloading.
+INFO 2023-07-29 00:43:17,503 autoreload 3960 2424 Watching for file changes with StatReloader
+INFO 2023-07-29 00:43:27,643 autoreload 636 5708 Watching for file changes with StatReloader
+INFO 2023-07-29 00:43:52,987 basehttp 636 8232 "GET /task5/coin_statistic/ HTTP/1.1" 200 72
+INFO 2023-07-29 00:44:40,721 autoreload 636 5708 D:\Documents\GB\python-django-seminar\seminars\task5app\views.py changed, reloading.
+INFO 2023-07-29 00:44:41,089 autoreload 5348 5564 Watching for file changes with StatReloader
+INFO 2023-07-29 00:44:44,748 basehttp 5348 3816 "GET /task5/coin_statistic/ HTTP/1.1" 200 72
+INFO 2023-07-29 00:44:47,401 basehttp 5348 3816 "GET /task5/coin_statistic/ HTTP/1.1" 200 72
+INFO 2023-07-29 00:44:52,436 basehttp 5348 3816 "GET /task5/coin HTTP/1.1" 301 0
+INFO 2023-07-29 00:44:52,441 views 5348 3908 coin: орел
+INFO 2023-07-29 00:44:52,441 basehttp 5348 3908 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-29 00:44:54,351 views 5348 3908 coin: решка
+INFO 2023-07-29 00:44:54,352 basehttp 5348 3908 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-29 00:44:55,029 views 5348 3908 coin: решка
+INFO 2023-07-29 00:44:55,030 basehttp 5348 3908 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-29 00:44:55,509 views 5348 3908 coin: орел
+INFO 2023-07-29 00:44:55,510 basehttp 5348 3908 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-29 00:44:56,036 views 5348 3908 coin: решка
+INFO 2023-07-29 00:44:56,037 basehttp 5348 3908 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-29 00:44:56,590 views 5348 3908 coin: решка
+INFO 2023-07-29 00:44:56,590 basehttp 5348 3908 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-29 00:44:57,229 views 5348 3908 coin: решка
+INFO 2023-07-29 00:44:57,230 basehttp 5348 3908 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-29 00:44:57,708 views 5348 3908 coin: орел
+INFO 2023-07-29 00:44:57,709 basehttp 5348 3908 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-29 00:44:58,618 views 5348 3908 coin: решка
+INFO 2023-07-29 00:44:58,619 basehttp 5348 3908 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-29 00:44:59,309 views 5348 3908 coin: орел
+INFO 2023-07-29 00:44:59,309 basehttp 5348 3908 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-29 00:44:59,636 views 5348 3908 coin: решка
+INFO 2023-07-29 00:44:59,637 basehttp 5348 3908 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-29 00:45:00,411 views 5348 3908 coin: решка
+INFO 2023-07-29 00:45:00,412 basehttp 5348 3908 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-29 00:45:00,883 views 5348 3908 coin: решка
+INFO 2023-07-29 00:45:00,883 basehttp 5348 3908 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-29 00:45:01,347 views 5348 3908 coin: решка
+INFO 2023-07-29 00:45:01,348 basehttp 5348 3908 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-29 00:45:01,771 views 5348 3908 coin: решка
+INFO 2023-07-29 00:45:01,772 basehttp 5348 3908 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-29 00:45:02,689 views 5348 3908 coin: решка
+INFO 2023-07-29 00:45:02,690 basehttp 5348 3908 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-29 00:45:02,898 views 5348 3908 coin: орел
+INFO 2023-07-29 00:45:02,898 basehttp 5348 3908 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-29 00:45:04,874 views 5348 3908 coin: решка
+INFO 2023-07-29 00:45:04,874 basehttp 5348 3908 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-29 00:45:05,073 views 5348 3908 coin: решка
+INFO 2023-07-29 00:45:05,074 basehttp 5348 3908 "GET /task5/coin/ HTTP/1.1" 200 10
+INFO 2023-07-29 00:45:05,497 views 5348 3908 coin: орел
+INFO 2023-07-29 00:45:05,497 basehttp 5348 3908 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-29 00:45:05,737 views 5348 3908 coin: орел
+INFO 2023-07-29 00:45:05,737 basehttp 5348 3908 "GET /task5/coin/ HTTP/1.1" 200 8
+INFO 2023-07-29 00:45:26,664 basehttp 5348 3908 "GET /task5/coin_statistic/ HTTP/1.1" 200 72
