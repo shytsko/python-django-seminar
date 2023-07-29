@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'task2app',
     'task5app',
     'homework1',
+    'seminar2_task3_app',
 ]
 
 MIDDLEWARE = [
