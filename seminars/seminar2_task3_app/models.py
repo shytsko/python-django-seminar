@@ -56,3 +56,14 @@ class Article(models.Model):
         article = Article.objects.filter(pk=id_article).first()
         if article is not None:
             article.delete()
+
+
+class Comment(models.Model):
+    author = models.ForeignKey(Author, on_delete=models.CASCADE)
+    article = models.ForeignKey(Article, on_delete=models.CASCADE)
+    text = models.TextField()
+    date_create = models.DateTimeField(auto_now_add=True)
+    date_update = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return f"Comment for article '{self.article.title}'; author: {self.author.fullname}"
