@@ -98,8 +98,8 @@ class Product(models.Model):
 
 
 class Order(models.Model):
-    customer = models.ForeignKey(Customer, on_delete=models.CASCADE)
-    products = models.ManyToManyField(Product)
+    customer = models.ForeignKey(Customer, on_delete=models.CASCADE, related_name="orders")
+    products = models.ManyToManyField(Product, related_name="orders")
     total_amount = models.DecimalField(max_digits=10, decimal_places=2, default=0)
     date = models.DateTimeField(auto_now_add=True)
 
@@ -112,13 +112,10 @@ class Order(models.Model):
         new_order.save()
         return new_order
 
-    @staticmethod
-    def add_product(order_id, product):
-        order = Order.objects.filter(pk=order_id).first()
-        if order is not None:
-            order.products.add(product)
-            order.total_amount += product.price
-            order.save()
+    def add_product(self, product):
+        self.products.add(product)
+        self.total_amount += product.price
+        self.save()
 
     @staticmethod
     def get(order_id):
