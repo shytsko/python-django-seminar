@@ -8,6 +8,9 @@ class Author(models.Model):
     biography = models.TextField()
     birthdate = models.DateField()
 
+    def __str__(self):
+        return f"{self.id}: {self.fullname}"
+
     @property
     def fullname(self):
         return f"{self.firstname} {self.lastname}"
