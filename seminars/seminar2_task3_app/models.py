@@ -69,7 +69,6 @@ class Article(models.Model):
         return None
 
 
-
 class Comment(models.Model):
     author = models.ForeignKey(Author, on_delete=models.CASCADE)
     article = models.ForeignKey(Article, on_delete=models.CASCADE)
@@ -79,3 +78,11 @@ class Comment(models.Model):
 
     def __str__(self):
         return f"Comment for article '{self.article.title}'; author: {self.author.fullname}"
+
+    @staticmethod
+    def get_by_author_name(author_name):
+        author = Author.objects.filter(firstname=author_name).first()
+        if author is not None:
+            comments = Comment.objects.filter(author=author)
+            return comments
+        return None
