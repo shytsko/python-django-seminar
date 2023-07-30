@@ -60,6 +60,15 @@ class Article(models.Model):
         if article is not None:
             article.delete()
 
+    @staticmethod
+    def get_by_author_name(author_name):
+        author = Author.objects.filter(firstname=author_name).first()
+        if author is not None:
+            articles = Article.objects.filter(author=author)
+            return articles
+        return None
+
+
 
 class Comment(models.Model):
     author = models.ForeignKey(Author, on_delete=models.CASCADE)
