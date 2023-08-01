@@ -431,3 +431,306 @@ INFO 2023-07-29 00:45:05,497 basehttp 5348 3908 "GET /task5/coin/ HTTP/1.1" 200 
 INFO 2023-07-29 00:45:05,737 views 5348 3908 coin: орел
 INFO 2023-07-29 00:45:05,737 basehttp 5348 3908 "GET /task5/coin/ HTTP/1.1" 200 8
 INFO 2023-07-29 00:45:26,664 basehttp 5348 3908 "GET /task5/coin_statistic/ HTTP/1.1" 200 72
+INFO 2023-08-01 20:22:32,682 autoreload 15496 6380 Watching for file changes with StatReloader
+WARNING 2023-08-01 20:22:34,072 log 15496 7312 Not Found: /
+WARNING 2023-08-01 20:22:34,072 basehttp 15496 7312 "GET / HTTP/1.1" 404 2492
+WARNING 2023-08-01 20:22:42,658 log 15496 7312 Not Found: /seminar3
+WARNING 2023-08-01 20:22:42,658 basehttp 15496 7312 "GET /seminar3 HTTP/1.1" 404 2534
+ERROR 2023-08-01 20:22:49,397 log 15496 7312 Internal Server Error: /seminar3/home
+Traceback (most recent call last):
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\seminars\seminar3\views.py", line 9, in home
+    return render(request, 'lesson3/home.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: lesson3/home.html
+ERROR 2023-08-01 20:22:49,399 basehttp 15496 7312 "GET /seminar3/home HTTP/1.1" 500 83548
+INFO 2023-08-01 20:23:24,738 autoreload 15496 6380 D:\Documents\GB\python-django-seminar\seminars\seminar3\views.py changed, reloading.
+INFO 2023-08-01 20:23:25,129 autoreload 3500 13612 Watching for file changes with StatReloader
+INFO 2023-08-01 20:23:27,141 basehttp 3500 7680 "GET /seminar3/home HTTP/1.1" 200 1070
+WARNING 2023-08-01 20:23:29,076 log 3500 7680 Not Found: /seminar3
+WARNING 2023-08-01 20:23:29,077 basehttp 3500 7680 "GET /seminar3 HTTP/1.1" 404 2534
+INFO 2023-08-01 20:23:58,199 basehttp 3500 7680 "GET /seminar3/home HTTP/1.1" 200 1075
+INFO 2023-08-01 20:23:59,709 basehttp 3500 7680 "GET /seminar3/about HTTP/1.1" 301 0
+INFO 2023-08-01 20:23:59,711 basehttp 3500 15708 "GET /seminar3/about/ HTTP/1.1" 200 792
+INFO 2023-08-01 20:24:00,465 basehttp 3500 15708 "GET /seminar3/home HTTP/1.1" 200 1075
+INFO 2023-08-01 20:24:00,946 basehttp 3500 15708 "GET /seminar3/about/ HTTP/1.1" 200 792
+INFO 2023-08-01 20:24:01,312 basehttp 3500 15708 "GET /seminar3/home HTTP/1.1" 200 1075
+INFO 2023-08-01 20:24:01,673 basehttp 3500 15708 "GET /seminar3/about/ HTTP/1.1" 200 792
+INFO 2023-08-01 20:31:50,872 autoreload 3500 13612 D:\Documents\GB\python-django-seminar\seminars\seminar3\views.py changed, reloading.
+INFO 2023-08-01 20:31:51,265 autoreload 16580 13968 Watching for file changes with StatReloader
+INFO 2023-08-01 20:36:37,045 autoreload 16580 13968 D:\Documents\GB\python-django-seminar\seminars\seminar3\views.py changed, reloading.
+INFO 2023-08-01 20:36:37,439 autoreload 1336 16628 Watching for file changes with StatReloader
+INFO 2023-08-01 20:39:14,253 autoreload 1336 16628 D:\Documents\GB\python-django-seminar\seminars\seminar3\views.py changed, reloading.
+INFO 2023-08-01 20:39:14,641 autoreload 14940 1912 Watching for file changes with StatReloader
+INFO 2023-08-01 20:39:19,927 autoreload 14940 1912 D:\Documents\GB\python-django-seminar\seminars\seminar3\urls.py changed, reloading.
+INFO 2023-08-01 20:39:20,315 autoreload 6544 10096 Watching for file changes with StatReloader
+INFO 2023-08-01 20:39:25,597 autoreload 6544 10096 D:\Documents\GB\python-django-seminar\seminars\seminar3\urls.py changed, reloading.
+INFO 2023-08-01 20:39:25,982 autoreload 6072 16352 Watching for file changes with StatReloader
+WARNING 2023-08-01 20:39:43,449 log 6072 16956 Not Found: /seminar3/coin/3
+WARNING 2023-08-01 20:39:43,449 basehttp 6072 16956 "GET /seminar3/coin/3 HTTP/1.1" 404 2993
+INFO 2023-08-01 20:40:06,170 basehttp 6072 16956 "GET /seminar3/game/coin/3 HTTP/1.1" 301 0
+INFO 2023-08-01 20:40:06,173 basehttp 6072 11852 "GET /seminar3/game/coin/3/ HTTP/1.1" 200 251
+INFO 2023-08-01 20:40:30,189 basehttp 6072 11852 "GET /seminar3/game/coin/3/ HTTP/1.1" 200 258
+INFO 2023-08-01 20:40:31,489 basehttp 6072 11852 "GET /seminar3/game/coin/3/ HTTP/1.1" 200 256
+INFO 2023-08-01 20:40:31,897 basehttp 6072 11852 "GET /seminar3/game/coin/3/ HTTP/1.1" 200 256
+INFO 2023-08-01 20:40:35,186 basehttp 6072 11852 "GET /seminar3/game/coin/40 HTTP/1.1" 301 0
+INFO 2023-08-01 20:40:35,188 basehttp 6072 2452 "GET /seminar3/game/coin/40/ HTTP/1.1" 200 983
+INFO 2023-08-01 20:41:22,851 autoreload 6072 16352 D:\Documents\GB\python-django-seminar\seminars\seminar3\views.py changed, reloading.
+INFO 2023-08-01 20:41:23,251 autoreload 2812 1356 Watching for file changes with StatReloader
+INFO 2023-08-01 20:42:08,060 autoreload 2812 1356 D:\Documents\GB\python-django-seminar\seminars\seminar3\views.py changed, reloading.
+INFO 2023-08-01 20:42:08,453 autoreload 14240 7600 Watching for file changes with StatReloader
+INFO 2023-08-01 20:42:51,204 autoreload 14240 7600 D:\Documents\GB\python-django-seminar\seminars\seminar3\views.py changed, reloading.
+INFO 2023-08-01 20:42:51,607 autoreload 13432 2448 Watching for file changes with StatReloader
+INFO 2023-08-01 20:43:40,449 autoreload 13432 2448 D:\Documents\GB\python-django-seminar\seminars\seminar3\views.py changed, reloading.
+INFO 2023-08-01 20:43:40,839 autoreload 8624 11188 Watching for file changes with StatReloader
+INFO 2023-08-01 20:44:21,572 autoreload 8624 11188 D:\Documents\GB\python-django-seminar\seminars\seminar3\views.py changed, reloading.
+INFO 2023-08-01 20:44:21,955 autoreload 12292 6204 Watching for file changes with StatReloader
+INFO 2023-08-01 20:44:45,560 basehttp 12292 14928 "GET /seminar3/game/cube/10 HTTP/1.1" 301 0
+INFO 2023-08-01 20:44:45,566 basehttp 12292 16656 "GET /seminar3/game/cube/10/ HTTP/1.1" 200 309
+WARNING 2023-08-01 20:44:59,698 log 12292 16656 Not Found: /seminar3/game/number/10/
+WARNING 2023-08-01 20:44:59,698 basehttp 12292 16656 "GET /seminar3/game/number/10/ HTTP/1.1" 404 3416
+INFO 2023-08-01 20:45:23,024 autoreload 12292 6204 D:\Documents\GB\python-django-seminar\seminars\seminar3\urls.py changed, reloading.
+INFO 2023-08-01 20:45:23,408 autoreload 9352 16240 Watching for file changes with StatReloader
+INFO 2023-08-01 20:45:29,797 basehttp 9352 3940 "GET /seminar3/game/number/10/ HTTP/1.1" 200 357
+INFO 2023-08-01 20:46:03,220 autoreload 9352 16240 D:\Documents\GB\python-django-seminar\seminars\seminar3\urls.py changed, reloading.
+INFO 2023-08-01 20:46:03,608 autoreload 8168 6212 Watching for file changes with StatReloader
+INFO 2023-08-01 20:51:34,951 autoreload 8168 6212 D:\Documents\GB\python-django-seminar\seminars\task5app\views.py changed, reloading.
+INFO 2023-08-01 20:51:35,351 autoreload 7776 17404 Watching for file changes with StatReloader
+INFO 2023-08-01 20:52:45,444 autoreload 7776 17404 D:\Documents\GB\python-django-seminar\seminars\task5app\views.py changed, reloading.
+INFO 2023-08-01 20:52:45,839 autoreload 2260 6372 Watching for file changes with StatReloader
+INFO 2023-08-01 20:55:13,910 autoreload 2260 6372 D:\Documents\GB\python-django-seminar\seminars\seminar3\views.py changed, reloading.
+INFO 2023-08-01 20:55:14,307 autoreload 13228 9288 Watching for file changes with StatReloader
+INFO 2023-08-01 20:56:11,026 autoreload 13228 9288 D:\Documents\GB\python-django-seminar\seminars\seminar3\views.py changed, reloading.
+INFO 2023-08-01 20:56:11,425 autoreload 3660 16732 Watching for file changes with StatReloader
+INFO 2023-08-01 20:57:08,167 autoreload 3660 16732 D:\Documents\GB\python-django-seminar\seminars\seminar3\views.py changed, reloading.
+INFO 2023-08-01 20:57:08,567 autoreload 14832 13200 Watching for file changes with StatReloader
+INFO 2023-08-01 20:57:29,902 autoreload 14832 13200 D:\Documents\GB\python-django-seminar\seminars\seminar3\views.py changed, reloading.
+INFO 2023-08-01 20:57:30,298 autoreload 8544 15244 Watching for file changes with StatReloader
+INFO 2023-08-01 21:00:41,467 autoreload 8544 15244 D:\Documents\GB\python-django-seminar\seminars\seminar3\views.py changed, reloading.
+INFO 2023-08-01 21:00:41,848 autoreload 13388 9856 Watching for file changes with StatReloader
+INFO 2023-08-01 21:08:14,811 autoreload 13388 9856 D:\Documents\GB\python-django-seminar\seminars\seminar3\views.py changed, reloading.
+INFO 2023-08-01 21:08:15,198 autoreload 13480 14168 Watching for file changes with StatReloader
+INFO 2023-08-01 21:09:56,416 autoreload 13480 14168 D:\Documents\GB\python-django-seminar\seminars\seminar3\views.py changed, reloading.
+INFO 2023-08-01 21:09:56,812 autoreload 15956 12080 Watching for file changes with StatReloader
+ERROR 2023-08-01 21:10:01,624 log 15956 16000 Internal Server Error: /seminar3/articles/30
+Traceback (most recent call last):
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\seminars\seminar3\views.py", line 54, in get_articles_by_author
+    return render(request, 'seminar3/articles.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 13: 'else', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+ERROR 2023-08-01 21:10:01,630 basehttp 15956 16000 "GET /seminar3/articles/30 HTTP/1.1" 500 189582
+INFO 2023-08-01 21:10:32,841 basehttp 15956 16000 "GET /seminar3/articles/30 HTTP/1.1" 200 777
+INFO 2023-08-01 21:11:11,868 basehttp 15956 16000 "GET /seminar3/articles/30 HTTP/1.1" 200 777
+INFO 2023-08-01 21:11:12,893 basehttp 15956 16000 "GET /seminar3/articles/30 HTTP/1.1" 200 777
+INFO 2023-08-01 21:11:14,377 basehttp 15956 16000 "GET /seminar3/articles/30 HTTP/1.1" 200 777
+INFO 2023-08-01 21:11:57,342 autoreload 9328 12136 Watching for file changes with StatReloader
+INFO 2023-08-01 21:12:02,998 basehttp 9328 14072 "GET /seminar3/articles/30 HTTP/1.1" 200 777
+INFO 2023-08-01 21:12:05,865 basehttp 9328 14072 "GET /seminar3/articles/30 HTTP/1.1" 200 777
+INFO 2023-08-01 21:12:30,457 basehttp 9328 14072 "GET /seminar3/articles/30 HTTP/1.1" 200 809
+INFO 2023-08-01 21:15:46,546 autoreload 9328 12136 D:\Documents\GB\python-django-seminar\seminars\seminar3\views.py changed, reloading.
+INFO 2023-08-01 21:15:46,930 autoreload 7184 10356 Watching for file changes with StatReloader
+INFO 2023-08-01 21:15:59,307 autoreload 7184 10356 D:\Documents\GB\python-django-seminar\seminars\seminar3\views.py changed, reloading.
+INFO 2023-08-01 21:15:59,682 autoreload 12228 14092 Watching for file changes with StatReloader
+INFO 2023-08-01 21:19:05,462 autoreload 2176 9392 Watching for file changes with StatReloader
+INFO 2023-08-01 21:19:10,157 basehttp 2176 12552 "GET /seminar3/articles/30 HTTP/1.1" 200 847
+INFO 2023-08-01 21:19:19,592 basehttp 2176 12552 "GET /seminar3/articles/30 HTTP/1.1" 200 847
+INFO 2023-08-01 21:21:35,374 basehttp 2176 12552 "GET /seminar3/article/45 HTTP/1.1" 200 411
+INFO 2023-08-01 21:21:38,716 basehttp 2176 12552 "GET /seminar3/article/46 HTTP/1.1" 200 411
+INFO 2023-08-01 21:25:39,812 autoreload 2176 9392 D:\Documents\GB\python-django-seminar\seminars\seminar3\views.py changed, reloading.
+INFO 2023-08-01 21:25:40,201 autoreload 9200 9900 Watching for file changes with StatReloader
+INFO 2023-08-01 21:26:07,761 autoreload 9200 9900 D:\Documents\GB\python-django-seminar\seminars\seminar3\views.py changed, reloading.
+INFO 2023-08-01 21:26:08,153 autoreload 2348 4952 Watching for file changes with StatReloader
+INFO 2023-08-01 21:26:38,763 autoreload 2348 4952 D:\Documents\GB\python-django-seminar\seminars\seminar3\views.py changed, reloading.
+INFO 2023-08-01 21:26:39,150 autoreload 9180 10596 Watching for file changes with StatReloader
+INFO 2023-08-01 21:34:06,711 autoreload 14500 2856 Watching for file changes with StatReloader
+ERROR 2023-08-01 21:34:13,055 log 14500 12520 Internal Server Error: /seminar3/article/46
+Traceback (most recent call last):
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\smartif.py", line 179, in translate_token
+    op = OPERATORS[token]
+         ~~~~~~~~~^^^^^^^
+KeyError: 'comment.date_update!=comment.date_create'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\seminars\seminar3\views.py", line 67, in article
+    return render(request, 'seminar3/article.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\defaulttags.py", line 952, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\defaulttags.py", line 885, in __init__
+    super().__init__(*args, **kwargs)
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\smartif.py", line 170, in __init__
+    mapped_tokens.append(self.translate_token(token))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\smartif.py", line 181, in translate_token
+    return self.create_var(token)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\defaulttags.py", line 888, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '!=comment.date_create' from 'comment.date_update!=comment.date_create'
+ERROR 2023-08-01 21:34:13,063 basehttp 14500 12520 "GET /seminar3/article/46 HTTP/1.1" 500 219984
+INFO 2023-08-01 21:34:36,014 basehttp 14500 12520 "GET /seminar3/article/46 HTTP/1.1" 200 691
+INFO 2023-08-01 21:34:44,728 basehttp 14500 12520 "GET /seminar3/article/45 HTTP/1.1" 200 876
+INFO 2023-08-01 21:36:37,328 basehttp 14500 12520 "GET /seminar3/article/45 HTTP/1.1" 200 876
+INFO 2023-08-01 21:36:38,528 basehttp 14500 12520 "GET /seminar3/article/45 HTTP/1.1" 200 876
+INFO 2023-08-01 21:36:40,575 basehttp 14500 12520 "GET /seminar3/article/46 HTTP/1.1" 200 691
+INFO 2023-08-01 21:36:52,992 basehttp 14500 12520 "GET /seminar3/article/45 HTTP/1.1" 200 876
+INFO 2023-08-01 21:38:16,468 basehttp 14500 12520 "GET /seminar3/article/45 HTTP/1.1" 200 908

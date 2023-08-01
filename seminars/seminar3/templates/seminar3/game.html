@@ -1,0 +1,12 @@
+{% extends 'seminar3/base_game.html' %}
+
+
+{% block content %}
+<h1>{{ title }}</h1>
+
+<ol>
+{% for attempt in attempts %}
+<li>{{ attempt }}</li>
+{% endfor %}
+</ol>
+{% endblock %}

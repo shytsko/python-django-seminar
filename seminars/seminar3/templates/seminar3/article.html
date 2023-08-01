@@ -1,0 +1,23 @@
+{% extends 'seminar3/base.html' %}
+
+
+{% block content %}
+<h1>{{ title }}</h1>
+
+Автор: {{ article.author.fullname }}
+Дата: {{ article.publication_date }}
+
+{{ article.content }}
+
+<h3>Комментарии</h3>
+<div>
+    {% for comment in comments %}
+    <p>{{ comment.author.fullname }}</p>
+    <p>{{ comment.date_update }}</p>
+    <p>{{ comment.text }}</p>
+    {% if comment.date_update > comment.date_create %}
+    <p>Изменено</p>
+    {% endif %}
+    {% endfor %}
+</div>
+{% endblock %}
