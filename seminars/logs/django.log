@@ -2981,3 +2981,10 @@ INFO 2023-08-03 00:03:10,676 basehttp 12496 16520 "GET /homework3/customer/46/pr
 INFO 2023-08-03 00:03:10,860 basehttp 12496 16520 "GET /homework3/customer/46/products/30/ HTTP/1.1" 200 638
 INFO 2023-08-03 00:03:11,051 basehttp 12496 16520 "GET /homework3/customer/46/products/30/ HTTP/1.1" 200 638
 INFO 2023-08-03 00:03:11,219 basehttp 12496 16520 "GET /homework3/customer/46/products/30/ HTTP/1.1" 200 638
+INFO 2023-08-03 00:04:55,651 autoreload 15892 16028 Watching for file changes with StatReloader
+INFO 2023-08-03 00:04:57,769 basehttp 15892 9444 "GET /homework3/customer/46/products/30/ HTTP/1.1" 200 530
+INFO 2023-08-03 00:05:01,205 basehttp 15892 9444 "GET /homework3/customer/46/products/30/ HTTP/1.1" 200 530
+INFO 2023-08-03 00:05:02,067 basehttp 15892 9444 "GET /homework3/customer/46/products/30/ HTTP/1.1" 200 530
+INFO 2023-08-03 00:05:10,587 basehttp 15892 9444 "GET /homework3/customer/48/products/30/ HTTP/1.1" 200 422
+INFO 2023-08-03 00:05:30,333 basehttp 15892 9444 "GET /homework3/customer/48/products/180/ HTTP/1.1" 200 531
+INFO 2023-08-03 00:05:36,851 basehttp 15892 9444 "GET /homework3/customer/48/products/700/ HTTP/1.1" 200 559

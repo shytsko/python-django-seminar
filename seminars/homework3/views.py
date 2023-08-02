@@ -42,6 +42,6 @@ class CustomerProducts(TemplateView):
                     order_by('-order__date'))
 
         context['customer'] = customer
-        context['products'] = [product.product for product in products]
+        context['products'] = {product.product for product in products}
         context['title'] = f'Товары клиента'
         return context
