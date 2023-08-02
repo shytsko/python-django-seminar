@@ -23,4 +23,5 @@ urlpatterns = [
     path('task5/', include('task5app.urls')),
     path('homework1/', include('homework1.urls')),
     path('seminar3/', include('seminar3.urls')),
+    # path('homework3/', include('homework3.urls')),
 ]
