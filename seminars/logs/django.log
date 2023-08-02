@@ -2885,3 +2885,99 @@ ERROR 2023-08-02 22:28:15,791 basehttp 10324 9424 "GET /homework3/customer/18/or
 INFO 2023-08-02 22:30:22,205 autoreload 10324 16460 D:\Documents\GB\python-django-seminar\seminars\homework3\views.py changed, reloading.
 INFO 2023-08-02 22:30:22,589 autoreload 2216 8724 Watching for file changes with StatReloader
 INFO 2023-08-02 22:30:29,535 basehttp 2216 11968 "GET /homework3/customer/18/orders/ HTTP/1.1" 200 3306
+INFO 2023-08-02 23:20:06,689 autoreload 7348 12644 Watching for file changes with StatReloader
+WARNING 2023-08-02 23:20:06,920 log 7348 13200 Not Found: /homework3/customer/18/orders/
+WARNING 2023-08-02 23:20:06,921 basehttp 7348 13200 "GET /homework3/customer/18/orders/ HTTP/1.1" 404 2988
+INFO 2023-08-02 23:20:19,372 basehttp 7348 13200 "GET /homework3/customer/45/orders/ HTTP/1.1" 200 29927
+INFO 2023-08-02 23:20:42,330 basehttp 7348 13200 "GET /homework3/customer/46/orders/ HTTP/1.1" 200 28622
+INFO 2023-08-02 23:20:46,975 basehttp 7348 13200 "GET /homework3/customer/47/orders/ HTTP/1.1" 200 22482
+INFO 2023-08-02 23:20:55,770 basehttp 7348 13200 "GET /homework3/customer/48/orders/ HTTP/1.1" 200 15815
+INFO 2023-08-02 23:20:59,917 basehttp 7348 13200 "GET /homework3/customer/49/orders/ HTTP/1.1" 200 17615
+WARNING 2023-08-02 23:21:06,366 log 7348 13200 Not Found: /homework3/customer/50/orders/
+WARNING 2023-08-02 23:21:06,366 basehttp 7348 13200 "GET /homework3/customer/50/orders/ HTTP/1.1" 404 2988
+INFO 2023-08-02 23:21:10,049 basehttp 7348 13200 "GET /homework3/customer/48/orders/ HTTP/1.1" 200 15815
+INFO 2023-08-02 23:53:45,457 autoreload 10140 13628 Watching for file changes with StatReloader
+INFO 2023-08-02 23:53:49,007 basehttp 10140 8520 "GET /homework3/customer/48/orders/ HTTP/1.1" 200 15815
+INFO 2023-08-02 23:54:02,091 basehttp 10140 8520 "GET /homework3/customer/48/products/180 HTTP/1.1" 301 0
+INFO 2023-08-02 23:54:02,100 basehttp 10140 6212 "GET /homework3/customer/48/products/180/ HTTP/1.1" 200 693
+INFO 2023-08-02 23:54:12,112 basehttp 10140 6212 "GET /homework3/customer/48/products/7/ HTTP/1.1" 200 286
+INFO 2023-08-02 23:55:17,768 basehttp 10140 6212 "GET /homework3/customer/45/products/7/ HTTP/1.1" 200 286
+INFO 2023-08-02 23:55:22,226 basehttp 10140 6212 "GET /homework3/customer/46/products/7/ HTTP/1.1" 200 448
+INFO 2023-08-02 23:55:29,216 basehttp 10140 6212 "GET /homework3/customer/47/products/7/ HTTP/1.1" 200 286
+INFO 2023-08-02 23:55:33,872 basehttp 10140 6212 "GET /homework3/customer/48/products/7/ HTTP/1.1" 200 286
+INFO 2023-08-02 23:55:36,800 basehttp 10140 6212 "GET /homework3/customer/49/products/7/ HTTP/1.1" 200 286
+INFO 2023-08-02 23:55:41,915 basehttp 10140 6212 "GET /homework3/customer/46/products/7/ HTTP/1.1" 200 448
+INFO 2023-08-02 23:58:00,060 basehttp 10140 6212 "GET /homework3/customer/46/products/30/ HTTP/1.1" 200 638
+INFO 2023-08-02 23:58:18,930 basehttp 10140 6212 "GET /homework3/customer/45/products/30/ HTTP/1.1" 200 450
+INFO 2023-08-02 23:58:25,100 basehttp 10140 6212 "GET /homework3/customer/46/products/30/ HTTP/1.1" 200 638
+INFO 2023-08-02 23:59:18,826 autoreload 10140 13628 D:\Documents\GB\python-django-seminar\seminars\homework3\views.py changed, reloading.
+INFO 2023-08-02 23:59:19,191 autoreload 2540 13684 Watching for file changes with StatReloader
+INFO 2023-08-02 23:59:24,104 basehttp 2540 9404 "GET /homework3/customer/46/products/30/ HTTP/1.1" 200 638
+INFO 2023-08-02 23:59:53,920 autoreload 2540 13684 D:\Documents\GB\python-django-seminar\seminars\homework3\views.py changed, reloading.
+INFO 2023-08-02 23:59:54,301 autoreload 5780 13448 Watching for file changes with StatReloader
+INFO 2023-08-03 00:00:30,963 autoreload 5780 13448 D:\Documents\GB\python-django-seminar\seminars\homework3\views.py changed, reloading.
+INFO 2023-08-03 00:00:31,344 autoreload 15052 10960 Watching for file changes with StatReloader
+ERROR 2023-08-03 00:00:39,100 log 15052 18268 Internal Server Error: /homework3/customer/46/products/30/
+Traceback (most recent call last):
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\seminars\homework3\views.py", line 45, in get_context_data
+    context['products'] = [product.product for product in products]
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1549, in execute_sql
+    sql, params = self.as_sql()
+                  ^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\db\models\sql\compiler.py", line 785, in as_sql
+    distinct_result, distinct_params = self.connection.ops.distinct_sql(
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Documents\GB\python-django-seminar\.venv\Lib\site-packages\django\db\backends\base\operations.py", line 202, in distinct_sql
+    raise NotSupportedError(
+django.db.utils.NotSupportedError: DISTINCT ON fields is not supported by this database backend
+ERROR 2023-08-03 00:00:39,104 basehttp 15052 18268 "GET /homework3/customer/46/products/30/ HTTP/1.1" 500 112966
+INFO 2023-08-03 00:02:24,016 autoreload 15052 10960 D:\Documents\GB\python-django-seminar\seminars\homework3\views.py changed, reloading.
+INFO 2023-08-03 00:02:24,406 autoreload 9508 18288 Watching for file changes with StatReloader
+INFO 2023-08-03 00:02:28,793 basehttp 9508 18328 "GET /homework3/customer/46/products/30/ HTTP/1.1" 200 638
+INFO 2023-08-03 00:02:30,029 basehttp 9508 18328 "GET /homework3/customer/46/products/30/ HTTP/1.1" 200 638
+INFO 2023-08-03 00:02:30,598 basehttp 9508 18328 "GET /homework3/customer/46/products/30/ HTTP/1.1" 200 638
+INFO 2023-08-03 00:02:30,949 basehttp 9508 18328 "GET /homework3/customer/46/products/30/ HTTP/1.1" 200 638
+INFO 2023-08-03 00:02:31,253 basehttp 9508 18328 "GET /homework3/customer/46/products/30/ HTTP/1.1" 200 638
+INFO 2023-08-03 00:02:31,460 basehttp 9508 18328 "GET /homework3/customer/46/products/30/ HTTP/1.1" 200 638
+INFO 2023-08-03 00:02:31,654 basehttp 9508 18328 "GET /homework3/customer/46/products/30/ HTTP/1.1" 200 638
+INFO 2023-08-03 00:02:31,855 basehttp 9508 18328 "GET /homework3/customer/46/products/30/ HTTP/1.1" 200 638
+INFO 2023-08-03 00:02:32,045 basehttp 9508 18328 "GET /homework3/customer/46/products/30/ HTTP/1.1" 200 638
+INFO 2023-08-03 00:02:32,244 basehttp 9508 18328 "GET /homework3/customer/46/products/30/ HTTP/1.1" 200 638
+INFO 2023-08-03 00:02:32,556 basehttp 9508 18328 "GET /homework3/customer/46/products/30/ HTTP/1.1" 200 638
+INFO 2023-08-03 00:02:32,765 basehttp 9508 18328 "GET /homework3/customer/46/products/30/ HTTP/1.1" 200 638
+INFO 2023-08-03 00:02:32,948 basehttp 9508 18328 "GET /homework3/customer/46/products/30/ HTTP/1.1" 200 638
+INFO 2023-08-03 00:02:40,920 autoreload 9508 18288 D:\Documents\GB\python-django-seminar\seminars\homework3\views.py changed, reloading.
+INFO 2023-08-03 00:02:41,286 autoreload 12496 18060 Watching for file changes with StatReloader
+INFO 2023-08-03 00:03:08,889 basehttp 12496 16520 "GET /homework3/customer/46/products/30/ HTTP/1.1" 200 638
+INFO 2023-08-03 00:03:09,509 basehttp 12496 16520 "GET /homework3/customer/46/products/30/ HTTP/1.1" 200 638
+INFO 2023-08-03 00:03:09,940 basehttp 12496 16520 "GET /homework3/customer/46/products/30/ HTTP/1.1" 200 638
+INFO 2023-08-03 00:03:10,238 basehttp 12496 16520 "GET /homework3/customer/46/products/30/ HTTP/1.1" 200 638
+INFO 2023-08-03 00:03:10,460 basehttp 12496 16520 "GET /homework3/customer/46/products/30/ HTTP/1.1" 200 638
+INFO 2023-08-03 00:03:10,676 basehttp 12496 16520 "GET /homework3/customer/46/products/30/ HTTP/1.1" 200 638
+INFO 2023-08-03 00:03:10,860 basehttp 12496 16520 "GET /homework3/customer/46/products/30/ HTTP/1.1" 200 638
+INFO 2023-08-03 00:03:11,051 basehttp 12496 16520 "GET /homework3/customer/46/products/30/ HTTP/1.1" 200 638
+INFO 2023-08-03 00:03:11,219 basehttp 12496 16520 "GET /homework3/customer/46/products/30/ HTTP/1.1" 200 638

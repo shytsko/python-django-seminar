@@ -2,6 +2,11 @@ from django.core.management.base import BaseCommand
 from homework3.models import Customer, Product, Order
 from django.db.models import Max
 import random
+from datetime import datetime, timedelta
+
+
+def random_date(prev_days=730):
+    return datetime.utcnow() - timedelta(days=random.randint(0, prev_days))
 
 
 class Command(BaseCommand):
@@ -55,3 +60,5 @@ class Command(BaseCommand):
                     order.products.add(random.choice(products),
                                        through_defaults={"product_count": random.randint(1, 5)})
                 order.update_total()
+                order.date = random_date()
+                order.save()
