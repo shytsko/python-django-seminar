@@ -1,0 +1,25 @@
+{% extends 'homework3/base.html' %}
+
+
+{% block content %}
+<h1>Товары, заказанные клиентом {{ customer.name }} за последние {{ prev_days }}</h1>
+<ul>
+    <table>
+        <tr>
+            <th>Товар</th>
+            <th>Номер последнего заказа</th>
+            <th>Дата последнего заказа</th>
+        </tr>
+        {% for item in products_ordered %}
+        <tr>
+            <td>{{ item.product.name }}</td>
+            <td>{{ item.order.pk }}</td>
+            <td>{{ item.order.date }}</td>
+        </tr>
+        {% endfor%}
+        </tr>
+    </table>
+
+
+</ul>
+{% endblock %}
