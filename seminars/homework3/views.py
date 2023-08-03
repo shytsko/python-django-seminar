@@ -38,10 +38,17 @@ class CustomerProducts(TemplateView):
         context = super().get_context_data(**kwargs)
         customer = get_object_or_404(Customer, pk=context['customer_id'])
         last_date = datetime.utcnow() - timedelta(days=context['prev_days'])
-        products = (ProductInOrder.objects.filter(order__customer=customer, order__date__gte=last_date).
-                    order_by('-order__date'))
+        products_ordered = (ProductInOrder.objects.filter(order__customer=customer, order__date__gte=last_date).
+                            order_by('-order__date'))
+
+        products_ordered_unique = []
+        products_present = set()
+        for item in products_ordered:
+            if item.product not in products_present:
+                products_ordered_unique.append(item)
+                products_present.add(item.product)
 
         context['customer'] = customer
-        context['products'] = {product.product for product in products}
+        context['products_ordered'] = products_ordered_unique
         context['title'] = f'Товары клиента'
         return context
