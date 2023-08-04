@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'homework2',
     'seminar3',
     'homework3',
+    'seminar4',
 ]
 
 MIDDLEWARE = [
@@ -60,7 +61,7 @@ ROOT_URLCONF = 'seminars.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -169,6 +170,11 @@ LOGGING = {
             'propagate': True,
         },
         'homework3': {
+            'handlers': ['console', 'file'],
+            'level': 'INFO',
+            'propagate': True,
+        },
+        'seminar4': {
             'handlers': ['console', 'file'],
             'level': 'INFO',
             'propagate': True,
