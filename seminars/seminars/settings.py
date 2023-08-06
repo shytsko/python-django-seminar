@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'seminar3',
     'homework3',
     'seminar4',
+    'homework4',
 ]
 
 MIDDLEWARE = [
@@ -186,3 +187,7 @@ LOGGING = {
         },
     },
 }
+
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
