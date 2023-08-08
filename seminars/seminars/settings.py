@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'seminar3',
     'homework3',
     'seminar4',
+    'homework4',
 ]
 
 MIDDLEWARE = [
@@ -179,5 +180,14 @@ LOGGING = {
             'level': 'INFO',
             'propagate': True,
         },
+        'homework4': {
+            'handlers': ['console', 'file'],
+            'level': 'INFO',
+            'propagate': True,
+        },
     },
 }
+
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
