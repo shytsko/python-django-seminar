@@ -3,3 +3,8 @@
 **/__pycache__/
 *.py[cod]
 /seminars/logs/
+/media/
+/static/
+*.sqlite3
+*.log
+*.pyc
