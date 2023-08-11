@@ -1,5 +1,6 @@
 import random
 import logging
+from django.shortcuts import render
 
 from django.http import HttpResponse, JsonResponse
 from task5app.models import Coin
@@ -15,7 +16,10 @@ def coin(request):
 
 
 def coin_statistic(request):
-    return JsonResponse(Coin.get_statistic(20))
+    context = {
+        'data': Coin.get_statistic(20)
+    }
+    return render(request, 'task5app/statistic.html', context)
 
 
 def cube(request):

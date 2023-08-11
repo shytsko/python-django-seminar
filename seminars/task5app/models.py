@@ -1,6 +1,5 @@
-import datetime
-
 from django.db import models
+from django.db.models import Count
 
 
 class Coin(models.Model):
@@ -15,6 +14,9 @@ class Coin(models.Model):
             counter[result.result] += 1
         statistics = {'орел': counter['орел'] / count_last, 'решка': counter['решка'] / count_last}
         return statistics
+
+        # statistic_data = Coin.objects.order_by("-date_time")[:count_last].values('result').annotate(count=Count('result'))
+        # return {item['result']: item['count'] / count_last for item in statistic_data}
 
     def __str__(self):
         return self.result
