@@ -20,8 +20,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-9jk5v7fvkrd^z#68upmh)ym-31*5upxk+i)riqorxk26%tw9=='
-# SECRET_KEY = os.getenv('SECRET_KEY')
+# SECRET_KEY = 'django-insecure-9jk5v7fvkrd^z#68upmh)ym-31*5upxk+i)riqorxk26%tw9=='
+SECRET_KEY = os.getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -55,11 +55,11 @@ INSTALLED_APPS = [
     'homework3',
     'seminar4',
     'homework4',
-    'debug_toolbar',
+    # 'debug_toolbar',
 ]
 
 MIDDLEWARE = [
-    'debug_toolbar.middleware.DebugToolbarMiddleware',
+    # 'debug_toolbar.middleware.DebugToolbarMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -99,13 +99,13 @@ DATABASES = {
     # }
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'shytskov$default',
+        'NAME': 'shytskov$site_db',
         'USER': 'shytskov',
-        # 'PASSWORD': os.getenv('MYSQL_PASSWORD'),
-        'PASSWORD': 'mysql123',
+        'PASSWORD': os.getenv('MYSQL_PASSWORD'),
         'HOST': 'shytskov.mysql.pythonanywhere-services.com',
         'OPTIONS': {
-            'init_command': "SET NAMES 'utf8mb4';SET sql_mode = 'STRICT_TRANS_TABLES'", 'charset': 'utf8mb4',
+            'init_command': "SET NAMES 'utf8mb4';SET sql_mode = 'STRICT_TRANS_TABLES'",
+            'charset': 'utf8mb4',
         },
     }
 }
@@ -178,10 +178,6 @@ LOGGING = {
         'django': {
             'handlers': ['console', 'file'],
             'level': 'INFO',
-        },
-        'django.db.backends': {
-            'handlers': ['console'],
-            'level': 'DEBUG',
         },
         'task2app': {
             'handlers': ['console', 'file'],
