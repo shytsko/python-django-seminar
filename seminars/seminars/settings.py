@@ -55,6 +55,7 @@ INSTALLED_APPS = [
     'homework3',
     'seminar4',
     'homework4',
+    'start_page',
     # 'debug_toolbar',
 ]
 
