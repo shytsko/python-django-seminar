@@ -9,8 +9,7 @@ logger = logging.getLogger(__name__)
 
 
 def coin(request):
-    result = Coin(result=random.choice(['орел', 'решка']))
-    result.save()
+    result = Coin.throw()
     logger.info(f"coin: {result}")
     return HttpResponse(result)
 
