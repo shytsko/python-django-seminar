@@ -8,15 +8,16 @@ from task5app.models import Coin
 logger = logging.getLogger(__name__)
 
 
-def coin(request):
-    result = Coin.throw()
-    logger.info(f"coin: {result}")
-    return HttpResponse(result)
+def coin(request, count):
+    for _ in range(count):
+        result = Coin.throw()
+        logger.info(f"coin: {result}")
+    return HttpResponse(f"Монета брошена {count} раз")
 
 
-def coin_statistic(request):
+def coin_statistic(request, last_results):
     context = {
-        'data': Coin.get_statistic(20)
+        'data': Coin.get_statistic(last_results)
     }
     return render(request, 'task5app/statistic.html', context)
 
