@@ -15,9 +15,9 @@ def coin(request, count):
     return HttpResponse(f"Монета брошена {count} раз")
 
 
-def coin_statistic(request, last_results):
+def coin_statistic(request, number_latter):
     context = {
-        'data': Coin.get_statistic(last_results)
+        'data': Coin.get_statistic(number_latter)
     }
     return render(request, 'task5app/statistic.html', context)
 

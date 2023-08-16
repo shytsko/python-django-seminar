@@ -19,7 +19,7 @@ class Coin(models.Model):
         return result
 
     @staticmethod
-    def get_statistic(count_last: int):
+    def get_statistic(number_latter: int):
         # last_results = Coin.objects.order_by("-date_time")[:count_last]
         # counter = {Coin.CoinSide.REVERSE: 0, Coin.CoinSide.OBVERSE: 0}
         # for result in last_results:
@@ -28,11 +28,11 @@ class Coin(models.Model):
         #               Coin.CoinSide.OBVERSE: counter[Coin.CoinSide.OBVERSE] / count_last}
         # return statistics
 
-        last_results = list(Coin.objects.values_list("id", flat=True).order_by("-date_time")[:count_last])
+        last_results = list(Coin.objects.values_list("id", flat=True).order_by("-date_time")[:number_latter])
         statistic_data = (Coin.objects.filter(id__in=last_results)
                           .values('result')
                           .annotate(count=Count('result')))
-        return {item['result']: item['count'] / count_last for item in statistic_data}
+        return {item['result']: item['count'] / number_latter for item in statistic_data}
 
     def __str__(self):
         return self.result

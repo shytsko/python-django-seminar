@@ -5,5 +5,5 @@ urlpatterns = [
     path('coin/<int:count>/', views.coin, name='coin'),
     path('cube/', views.cube, name='cube'),
     path('number/', views.number, name='number'),
-    path('coin_statistic/<int:last_results>', views.coin_statistic, name='coin_statistic'),
+    path('coin_statistic/<int:number_latter>', views.coin_statistic, name='coin_statistic'),
 ]
